@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: maha4iac/mahalogin:2
+          image: roshan233/akshayimage20apr:1
           ports:
             - containerPort: 8080
