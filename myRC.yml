@@ -6,16 +6,16 @@ spec:
   replicas: 2
   selector:
     app: myapp
-    version: 2.6.1
+    version: 2.6.2
   template:
     metadata:
       name: myapp
       labels:
         app: myapp
-        version: 2.6.1
+        version: 2.6.2
     spec:
       containers:
         - name: myapp
-          image: roshan233/akshayimage20apr:1
+          image: maha4iac/mahalogin:2
           ports:
             - containerPort: 8080
