@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: roshan233/akshayimage20apr:1
+        image: maha4iac/mahalogin:2
         resources:
           limits:
             memory: "128Mi"
